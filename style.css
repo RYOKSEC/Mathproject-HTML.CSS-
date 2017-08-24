@@ -1,0 +1,202 @@
+
+#container {
+    width: 1000px ;
+    border: 0px solid grey;
+    margin: 0px 200px;
+}
+
+h1 a {
+    
+    font-size: 50px;
+     font-weight: 100;
+    color: #c537db ;
+    text-decoration: none;
+              
+    
+}
+
+#searchbox {
+float: right;
+    background: linear-gradient(#DDF1AA,#B7E954);
+        width: 400px ;
+    height: 50px;
+        padding: 20px 20px 0px 20px ;
+    margin-top: 20px
+        
+}
+
+
+
+#brand {
+    float: left;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0px
+        
+}
+
+.text {
+    float: left
+            width: 200px ;
+padding: 5px;
+    font-size: 15px;
+        color: orange;
+    background: white url(images/search.png) right center  ;
+    background-repeat: no-repeat
+            
+        
+}
+
+.submit {
+    float: right ;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #cb18e6 ;
+    font-size: 15px;     
+}
+
+#clear {
+    clear: both
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#F8F594, #D5D533);
+    background: -webkit-linear-gradient(#F8F594, #D5D533);
+    background: -o-linear-gradient(#F8F594, #D5D533);
+    background: -moz-linear-gradient(#F8F594, #D5D533);
+    padding: 9px 0;
+    
+    
+    
+}
+    
+
+
+
+
+ul{
+    
+    list-style: none
+}
+
+#menu ul li {
+   float: left ;
+    padding: 0px 30px;
+     height: 30px ;
+    border-right: 1px solid #ce26e8;
+    
+}
+
+
+#menu ul li a{
+    text-decoration: none;
+    text-transform:uppercase ;
+    font-size: 17px ;
+    color: purple;
+    line-height: 30px ;
+    -wepkit-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    transition: 0.3s ease;
+   
+    
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    
+    font-size: 20px;
+    font-weight: bold ;
+    color: #000cf4;
+    
+}
+
+#paragragh {
+    font-size: 50px 
+    height: 400px;
+    width: auto ;
+    background: linear-gradient(#DDF1A8,#B8E954) ;
+    color: #316901 ;
+}
+
+
+
+#intro {
+    background: linear-gradient(#E3F2B7,#B7E952);
+    padding: 30px;
+    margin: 17px 0px
+}
+
+#intro h3{
+    font-size: 50px ;
+        color:#316901;
+    font-weight: normal
+}
+
+#intro p {
+    font-size: 25px ;
+color: #628F19;
+    text-align: justify
+    
+}
+
+.sidebar{
+    height: 500px;
+    width: 400px;
+    border: 1px solid #BAF46F ;
+    border-radius: 20px;
+    padding: 10px 20px ;
+}
+
+#liftsidebar {
+    float: left
+    
+    
+}
+
+#rightsidebar{
+    
+    float: right;
+   
+}
+.sidebar h3 {
+    color: purple;
+    font-size: 30px;  
+}
+.sidebar ul li a{
+    text-decoration: none;
+        font-size: 20px ;
+    color: purple;
+    transition: 0.3s ease;
+    
+    
+}
+.sidebar ul li a:hover {
+    
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    
+}
+#liftsidebar ul li{
+    padding-top: 6px 
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrow.png)
+}
+.sidebar ul {
+    
+padding-top: 10px;
+}
+
+#rightsidebar ul li{
+    
+     list-style-image: url(images/tick.png) ;
+    padding-top: 17px
+    padding-bottom: 17px;
+    padding-left: 50px;
+}
